@@ -1,5 +1,7 @@
 # docker-fedora-downgrade
-# System upgrade is only officially supported and tested over 2 releases at most (e.g. from 33 to 35). If you need to upgrade over more releases, it is recommended to do it in several smaller steps 
+# System upgrade is only officially supported and tested over 2 releases at most (e.g. from 33 to 35). If you need to upgrade over more releases, it is recommended to do it in several smaller steps
+
+# downgrading using the same command for some reason supports major jumps down 35 to 28 etc 
 ```
 
 through docker run -it -d --net host -v /:/rootdir fedora:35
